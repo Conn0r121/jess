@@ -1,5 +1,11 @@
+import './Home.css'
+
 function Home() {
-    return <h2>This is the beginning of a site</h2>;
+    return (
+        <div class="home">
+            <h2>This is the beginning of a site</h2>
+        </div>
+    )
 }
 
 export default Home;
