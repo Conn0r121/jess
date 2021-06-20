@@ -2,9 +2,13 @@ import './Home.css'
 
 function Home() {
     return (
-        <div class="home">
-            <h2>This is the beginning of a site</h2>
-        </div>
+        <div className="Home-div">
+      <header className="Home-header">
+        <h2>
+          Jess Testa
+        </h2>
+      </header>
+    </div>
     )
 }
 
